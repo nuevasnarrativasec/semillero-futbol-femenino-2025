@@ -16,13 +16,13 @@ body{
 
 @font-face {
     font-family: 'sequel100black-85uploadedfile';
-    src: url('../fonts/sequel-100-black-85-webfont.woff2') format('woff2'),
-         url('../fonts/sequel-100-black-85-webfont.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/fonts/sequel-100-black-85-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/fonts/sequel-100-black-85-webfont.woff') format('woff');
 }
 @font-face {
     font-family: 'Prelo';
-    src: url('../fonts/Prelo-SemiBold.woff2') format('woff2'),
-        url('../fonts/Prelo-SemiBold.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/fonts/Prelo-SemiBold.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/fonts/Prelo-SemiBold.woff') format('woff');
     font-weight: 600;    
 }
     .ctn-header-comercio{
@@ -89,7 +89,7 @@ body{
                         width: 36px;
                     } 
     .header-semillero{
-        background: url('../img/bg-cielo.jpg') no-repeat center bottom;
+        background: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/img/bg-cielo.jpg') no-repeat center bottom;
         background-attachment: fixed;
         background-size: cover;
         /*height: 200vh;*/
@@ -145,7 +145,7 @@ body{
         padding: 10px;
     }
     body .header-semillero {
-        background: url(../img/bg-cielo-movil.jpg) no-repeat center top;
+        background: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/img/bg-cielo-movil.jpg') no-repeat center top;
         background-attachment: fixed;
         background-size: cover;
     }
@@ -163,7 +163,7 @@ body{
 @media screen and (max-height: 732px){
 
     .header-semillero {
-        background: url(../img/bg-cielo-732.jpg) no-repeat center top;
+        background: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/img/bg-cielo-732.jpg') no-repeat center top;
         background-attachment: fixed;
         background-size: cover;
     }
