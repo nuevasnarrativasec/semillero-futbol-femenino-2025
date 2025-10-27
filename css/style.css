@@ -1,0 +1,170 @@
+html, 
+body{
+    box-sizing: border-box;    
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.clear{
+    clear: both;
+}
+
+@font-face {
+    font-family: 'sequel100black-85uploadedfile';
+    src: url('../fonts/sequel-100-black-85-webfont.woff2') format('woff2'),
+         url('../fonts/sequel-100-black-85-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Prelo';
+    src: url('../fonts/Prelo-SemiBold.woff2') format('woff2'),
+        url('../fonts/Prelo-SemiBold.woff') format('woff');
+    font-weight: 600;    
+}
+    .ctn-header-comercio{
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+    a.logo-dt{
+        display: inline-block;
+        float: left;
+        padding: 10px 0;
+        width: 60px;
+    }
+
+    #social{
+        margin: 0;
+        padding: 10px;
+        position: relative;
+        right: 0;        
+        text-align: right;
+        z-index: 600;
+    }
+       #social ul{
+            display: inline-block;
+            margin: 0 auto;
+            padding: 0;
+            vertical-align: middle;
+        }
+            #social ul li{
+                display: inline-block;
+                margin: 0 3px;
+                vertical-align: middle;
+            }
+                #social ul li a{
+                    height: 36px;
+                    width: 36px;
+                }
+                    #fb{
+                        background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/fb-icon-negro.png?v2) no-repeat 0 0;
+                        background-size: 100% !important;
+                        border: none;
+                        display: inline-block;
+                        height: 36px;
+                        text-indent: -9999px;
+                        width: 36px;
+                    }
+
+                    #wst{                
+                        background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/wsp-icon-negro.png?v2) no-repeat 0 0 !important;
+                        background-size: 100% !important;
+                        border: none;
+                        display: none;
+                        height: 36px;
+                        text-indent: -9999px;
+                        width: 36px;
+                    }
+
+                    #tw{            
+                        background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/tw-icon-negro.png?v2) no-repeat 0 0 !important;
+                        background-size: 100% !important;
+                        border: none;
+                        display: inline-block;
+                        height: 36px;
+                        text-indent: -9999px;
+                        width: 36px;
+                    } 
+    .header-semillero{
+        background: url('../img/bg-cielo.jpg') no-repeat center bottom;
+        background-attachment: fixed;
+        background-size: cover;
+        /*height: 200vh;*/
+    }
+    .box-cesped{
+        background: transparent;
+        padding-top: 100vh;
+    }
+    .box-info{
+        background-color: #fff;
+        margin-top: -20px;
+        position: relative;
+    }
+        .box-info ul{
+            margin: 0 auto;
+            padding: 30px 20px;
+            text-align: center;
+        }
+            .box-info ul li{
+                display: inline-block;
+                vertical-align: top;
+            }
+                .box-info ul li img{
+                    display: block;
+                    margin: 0 10px;
+                    max-width: 220px;
+                }
+        .box-texto-info{
+            margin: 0 auto;
+            max-width: 420px;
+        }
+            .box-texto-info h2{
+                color: #000;
+                font: 1.7rem/1.2 'sequel100black-85uploadedfile', Arial, sans-serif;
+                margin: 0 auto;
+                max-width: 400px;
+                text-align: center;
+            }
+            .box-texto-info p{
+                color: #000;
+                font: 1rem/1.5 'Prelo', Arial, sans-serif;
+                margin: 20px 0 0;
+            }
+            a.btn-entrevista{
+                display: block;
+                margin: 20px auto;
+                max-width: 350px;
+            }
+
+@media screen and (max-width: 640px){
+
+    a.logo-dt{
+        padding: 10px;
+    }
+    body .header-semillero {
+        background: url(../img/bg-cielo-movil.jpg) no-repeat center top;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .box-info ul li{
+        margin-bottom: 20px;
+    }
+        .box-info ul li img{
+            max-width: 250px;
+        }
+    .box-texto-info{
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-height: 732px){
+
+    .header-semillero {
+        background: url(../img/bg-cielo-732.jpg) no-repeat center top;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
