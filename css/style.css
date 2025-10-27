@@ -147,11 +147,11 @@ body{
     body .header-semillero {
         background: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/img/bg-cielo-movil.jpg?v4') no-repeat center top;
         background-attachment: scroll;
-        background-size: 120%;
+        background-size: 100%;
     }
     .box-cesped {
         background: transparent;
-        padding-top: 100vh;
+        padding-top: 80vh;
     }
     .box-info ul li{
         margin-bottom: 20px;
