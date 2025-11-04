@@ -101,6 +101,7 @@ body{
     .box-info{
         background-color: #fff;
         margin-top: -20px;
+        padding-bottom: 50px;
         position: relative;
     }
         .box-info ul{
