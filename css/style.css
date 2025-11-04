@@ -173,3 +173,31 @@ body{
         background-size: cover;
     }
 }
+
+@media screen and (max-width: 768px){
+
+    header .header-semillero{
+        background: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/img/bg-cielo-768.jpg') no-repeat center bottom;
+        background-attachment: fixed;
+        background-size: cover;
+        /*height: 200vh;*/
+    }
+    .ctn-header-comercio{
+        padding: 0 20px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .header-semillero{
+        background: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/img/bg-cielo-1024.jpg') no-repeat center bottom;
+        background-attachment: fixed;
+        background-size: cover;
+        /*height: 200vh;*/
+    }
+    .ctn-header-comercio{
+        padding: 0 20px;
+    }
+
+}
