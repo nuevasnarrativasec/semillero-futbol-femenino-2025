@@ -145,7 +145,7 @@ body{
     a.logo-dt{
         padding: 10px;
     }
-    body .header-semillero {
+    body header .header-semillero {
         background: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/img/bg-cielo-movil-2.jpg?v4') no-repeat center top;
         background-attachment: scroll;
         background-size: 100%;
@@ -174,7 +174,7 @@ body{
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 820px){
 
     header .header-semillero{
         background: url('https://nuevasnarrativasec.github.io/semillero-futbol-femenino-2025/img/bg-cielo-768.jpg') no-repeat center bottom;
