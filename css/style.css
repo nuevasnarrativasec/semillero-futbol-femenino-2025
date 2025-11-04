@@ -136,8 +136,7 @@ body{
             }
             a.btn-entrevista{
                 display: block;
-                margin: 20px auto;
-                max-width: 350px;
+                margin: 20px auto;                
             }
 
 @media screen and (max-width: 640px){
