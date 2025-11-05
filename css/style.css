@@ -28,6 +28,7 @@ body{
     .ctn-header-comercio{
         margin: 0 auto;
         max-width: 1024px;
+        padding-top: 10px;
         position: relative;
         z-index: 1;
     }
